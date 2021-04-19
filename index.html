@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Instagram Photo Feed with Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
@@ -13,12 +13,13 @@
 <body>
     <div class="container-fluid">
         <div class="row ">   
+
+        <!--Navbar-->
             <nav class="col-12 navbar navbar-light bg-light">
                <div class="offset-1 col-2 d-flex aling-item-center">
                     <i class="fab fa-instagram fa-2x"></i>
                     <span class="fs-5 p-2">Instagram</span>
                 </div> 
-                
                     <div class="ml-auto">
                             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Create a new post</button>   
                                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -55,7 +56,7 @@
                     </div>                           
             </nav>
 
-           
+           <!--Navbar-->
 
         <div class="container-fluid bg-white">  
             <ul class="nav justify-content-center p-2">
@@ -93,17 +94,14 @@
                 <div id="column-layout" class="tab-pane fade">  
 
                     <section class="tab-pane bg-secondary active show" id="menu2" role="tabpanel" aria-labelledby="home-tab"> 
-                    
                         <div class="offset-3 col-7 card bg-white">
 
                             <div class="card-header">First Photo</div>
                                <img src="https://images.unsplash.com/photo-1618269715007-0957b336abba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="...">
-                            <div class="card-header text-primary">
-                                <h5 class="d-flex">3000 Likes</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            
-
-                                <div class="row d-flex">
+                               <div class="card-header text-primary">
+                                    <h5 class="d-flex">3000 Likes</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="row d-flex">
                                         <div class="col-5">
                                             <i class="far fa-heart text-muted"></i>
                                             <span class="text-muted">Comment...</span>
@@ -111,17 +109,15 @@
                                         <div class="offset-6 col-1">
                                             <i class="fas fa-ellipsis-v text-muted"></i>
                                         </div>
+                                    </div>
                                 </div>
-                            </div>
                             
                             <div class="card-header">Second Photo</div>
                                 <img src="https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="card-img-top" alt="...">
-                            <div class="card-header text-primary">
-                                <h5 class="d-flex">3000 Likes</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            
-
-                                <div class="row d-flex">
+                                <div class="card-header text-primary">
+                                    <h5 class="d-flex">3000 Likes</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="row d-flex">
                                         <div class="col-5">
                                             <i class="far fa-heart text-muted"></i>
                                             <span class="text-muted">Comment...</span>
@@ -129,17 +125,15 @@
                                         <div class="offset-6 col-1 ">
                                             <i class="fas fa-ellipsis-v text-muted"></i>
                                         </div>
+                                    </div>
                                 </div>
-                            </div>
                             
-                            <div class="card-header">Ftrirt Photo</div>
+                            <div class="card-header">Trirt Photo</div>
                                 <img src="https://images.unsplash.com/photo-1618238272238-f9ab783e773d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1353&q=80" class="card-img-top" alt="...">
-                            <div class="card-header text-primary">
-                                <h5 class="d-flex">3000 Likes</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            
-
-                                <div class="row d-flex">
+                                <div class="card-header text-primary">
+                                    <h5 class="d-flex">3000 Likes</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <div class="row d-flex">
                                         <div class="col-5">
                                             <i class="far fa-heart text-muted"></i>
                                             <span class="text-muted">Comment...</span>
@@ -147,61 +141,16 @@
                                         <div class="offset-6 col-1">
                                             <i class="fas fa-ellipsis-v text-muted "></i>
                                         </div>
+                                    </div>
                                 </div>
-                        </div>
                         </div>
                     </section>
                 </div>      
-            </div>   
-                        
-                
-
-                </div>
-       
+            </div>                   
+        </div>  
     </div>
-
-
-
-
-
-
-
-
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
-
-<!--
-<section class="tab-pane bg-secondary active show" id="menu2" role="tabpanel" aria-labelledby="home-tab">         
-                            <div class="row d-flex mt-0 pt-3 mb-3">
-                                <div class="offset-3 col-6 card bg-white border-0 p-1">
-                                    <div class="card-header bg-white border-0 p-1">
-                                        <div class="row d-flex">
-                                            <h7 class="d-flex justify-content-between">first photo<h7> 
-                                            <span class="d-flex justify-content-between ">14/01/2021</span>
-                                        </h7></h7></div>
-                                    </div>
-                                    <div class="card-body m-0 p-1">
-                                        <img src="https://images.pexels.com/photos/3655681/pexels-photo-3655681.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"" class="img-fluid">
-                                        <span>
-                                            3000 Likes
-                                        </span>
-                                        <p>   
-                                            This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
-                                        </p>
-                                        <div class="row d-flex">
-                                            <div class="col-4">
-                                                <i class="far fa-heart text-muted"></i>
-                                                <span class="text-muted">Comment...</span>
-                                            </div>
-                                            <div class="offset-7 col-1">
-                                                <i class="fas fa-ellipsis-v text-muted"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>    
-                            </div>
-                </section>-->
